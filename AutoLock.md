@@ -1,4 +1,4 @@
-# SmartThings-Lock
+# Auto Lock
 Manage authorized users and send notification when lock is unlocked. Automatically lock it based on elapsed time or no motion detected near the lock
 
 # SmartThings Devices Required
