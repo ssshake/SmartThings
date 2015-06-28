@@ -2,7 +2,7 @@
 Manage authorized users and send notification when lock is unlocked. Automatically lock it based on elapsed time or no motion detected near the lock
 
 # SmartThings Devices Required
-1. <a href=http://www.amazon.com/gp/product/B0083GJ19E?psc=1&redirect=true&ref_=oh_aui_search_detailpage>Schlage FE599NX CAM 716 ACC 716 Home Keypad Lever with Z-Wave Technology, Aged Bronze</a>
+1. <a href="http://www.amazon.com/gp/product/B0083GJ19E/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0083GJ19E&linkCode=as2&tag=smartthings00-20&linkId=HG64DSA3QJRNS4YQ">Schlage FE599NX CAM 716 ACC 716 Home Keypad Lever with Z-Wave Technology, Aged Bronze</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=smartthings00-20&l=as2&o=1&a=B0083GJ19E" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 # Features
 1. Set passcode for autorized users
