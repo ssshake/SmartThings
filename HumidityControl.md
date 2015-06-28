@@ -2,8 +2,8 @@
 Maintain humidity in a room by connecting humidity sensor with humidifier and dehumidifier
 
 # SmartThings Devices Required
-1. Z Wave humidity sensor. Tested with <a href=http://www.amazon.com/dp/B008D5TYGU/ref=sr_ph?ie=UTF8&qid=1435497582&sr=1&keywords=aeon+multisensor>Aeon Labs Aeotec Z-Wave Multi-Sensor</a>
-2. Z Wave smart plug. Tested with <a href=http://www.amazon.com/GE-Wireless-Lighting-Control-Appliance/dp/B0013V58HU/ref=sr_1_1?ie=UTF8&qid=1435497723&sr=8-1&keywords=GE+Z-Wave+Wireless+Lighting+Control+and+Appliance+Module&pebp=1435497731349&perid=0EQ27R8D961GH6A8CEGQ>GE Z-Wave Wireless Lighting Control and Appliance Module</a>
+1. Z Wave humidity sensor. Tested with <a href="http://www.amazon.com/gp/product/B008D5TYGU/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B008D5TYGU&linkCode=as2&tag=smartthings00-20&linkId=JSNX7WF6X5FJTEPA">Aeon Labs Aeotec Z-Wave Multi-Sensor</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=smartthings00-20&l=as2&o=1&a=B008D5TYGU" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+2. Z Wave smart plug. Tested with <a href="http://www.amazon.com/gp/product/B0013V58HU/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0013V58HU&linkCode=as2&tag=smartthings00-20&linkId=Z7UKQEEPV5GKD72C">GE Z-Wave Wireless Lighting Control and Appliance Module</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=smartthings00-20&l=as2&o=1&a=B0013V58HU" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 # Features
 1. Run humidifier when humidity falls below your preference. A smart solution for your bedroom
