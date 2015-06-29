@@ -11,4 +11,4 @@ Light and switch automation using home mode, motion, contact, and lock sensors.
 
 # How to use
 1. Follow <a href=https://www.youtube.com/watch?v=D6rG4mk164M&feature=youtu.be>YouTube</a> instruction to install this SmartApp
-2. Copy code from <a href=https://github.com/vvbox/SmartThings/blob/master/HumidityControl.groovy>HumidityControl.groovy</a>
+2. Copy code from <a href=https://github.com/vikashvarma/SmartThings/blob/master/LightControl.groov> here</a>
