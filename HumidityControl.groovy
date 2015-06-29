@@ -152,7 +152,7 @@ def turnOff(switchName) {
 private send(msg) {
     if ( notify == "Yes" ) {
         log.debug( "sending push message" )
-        sendNotification( msg )
+        sendPushMessage( msg )
     }
 
     if ( sms ) {
