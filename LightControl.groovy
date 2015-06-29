@@ -1,6 +1,4 @@
-  
 /**
- *  Smart Light
  *
  *  Copyright 2015 Vikash Varma
  *
@@ -24,7 +22,7 @@
 during sunset motion was on, however light did not turn on since motion event did not fire. Fix: created schedule job to call motion handler at set time
  */
 definition(
-    name: "Smart Light",
+    name: "LightControl",
     namespace: "vvarma",
     author: "Vikash Varma",
     description: "Light and switch automation using home mode, motion, contact, and lock sensors.",
