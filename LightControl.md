@@ -1,4 +1,4 @@
-# Smart Light
+# Light Control
 Light and switch automation using home mode, motion, contact, and lock sensors.
 
 # SmartThings Devices Required
