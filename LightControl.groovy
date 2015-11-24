@@ -1,4 +1,6 @@
+  
 /**
+ *  Smart Light
  *
  *  Copyright 2015 Vikash Varma
  *
@@ -22,7 +24,7 @@
 during sunset motion was on, however light did not turn on since motion event did not fire. Fix: created schedule job to call motion handler at set time
  */
 definition(
-    name: "LightControl",
+    name: "Smart Light",
     namespace: "vvarma",
     author: "Vikash Varma",
     description: "Light and switch automation using home mode, motion, contact, and lock sensors.",
@@ -39,10 +41,9 @@ def mainPage() {
 	dynamicPage (name: "mainPage" ) {
         section("Control these lights..."){
             input "lights", "capability.switch", multiple: true
-            input "pref", "enum", title: "Preference", metadata: [values: ["Security", "Sensor" , "SecurityOptimized"]], multiple:false  
+            input ("pref", "enum", title: "Preference", metadata: [values: ["Security", "Sensor" , "SecurityOptimized"]], multiple:false,submitOnChange: true)  
         }
-        
-        if (pref == "Sensor" || pref == "SecurityOptimized") {
+        if ( pref == "Sensor" || pref == "SecurityOptimized" ) {
         	section ("Sensors to control lights and switches..") {
                     input "motionSensors", "capability.motionSensor", title:"Motion sensors?", multiple: true, required: false
                     input "doorSensors", "capability.contactSensor", title: "Door sensors", multiple:true, required: false
